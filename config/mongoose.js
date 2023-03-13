@@ -2,7 +2,7 @@ const mongoose =require("mongoose");
 
 mongoose.set("strictQuery", false);
 
-mongoose.connect('mongodb://0.0.0.0:27017/employee_review');
+mongoose.connect('mongodb+srv://Hrithik:Hrithik1995@cluster0.h4n9ic3.mongodb.net/Employee-Review?retryWrites=true&w=majority');
 
 const db=mongoose.connection;
 
