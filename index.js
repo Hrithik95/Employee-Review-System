@@ -40,7 +40,7 @@ app.use(session({
         maxAge : (1000 * 60 * 100)
     },
     store:MongoStore.create({
-        mongoUrl: 'mongodb://0.0.0.0:27017/employee_review',
+        mongoUrl: 'mongodb+srv://Hrithik:Hrithik1995@cluster0.h4n9ic3.mongodb.net/Employee-Review?retryWrites=true&w=majority',
         autoRemove : 'disabled',
     }, function(err){
         console.log(err || 'connect-mongodb setup');
